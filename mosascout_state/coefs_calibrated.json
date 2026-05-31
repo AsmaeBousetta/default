@@ -1,0 +1,92 @@
+{
+  "$schema": "MosaScout B2B coefficients v1.0",
+  "last_updated": "2026-05-28T02:45:00+02:00",
+  "description": "Coefficients B2B par catégorie. Démarrage = heuristiques brief original. Évolution = recalibration via journal_postmortem.md à partir de ≥5 ventes effectives par catégorie.",
+  "calibration_status": "INITIAL_HEURISTIC",
+
+  "coefs_by_category": {
+    "consumables_sealed": {
+      "coef_min": 0.35,
+      "coef_max": 0.45,
+      "coef_use": 0.40,
+      "cycle_weeks_min": 2,
+      "cycle_weeks_max": 4,
+      "n_ventes_calibration": 0,
+      "calibration_status": "HEURISTIC",
+      "examples": "filtres, cartouches, batteries OEM neuves"
+    },
+    "mass_market_b2b": {
+      "coef_min": 0.30,
+      "coef_max": 0.40,
+      "coef_use": 0.35,
+      "cycle_weeks_min": 3,
+      "cycle_weeks_max": 6,
+      "n_ventes_calibration": 0,
+      "calibration_status": "HEURISTIC",
+      "examples": "imprimantes étiquettes POS (Sato), scanners (AT-002), data loggers entry"
+    },
+    "test_eq_intemporel": {
+      "coef_min": 0.50,
+      "coef_max": 0.65,
+      "coef_use": 0.55,
+      "cycle_weeks_min": 4,
+      "cycle_weeks_max": 10,
+      "n_ventes_calibration": 0,
+      "calibration_status": "HEURISTIC",
+      "examples": "HP/Fluke/Tek/Agilent · oscilloscopes · multimètres pro"
+    },
+    "outils_main_pro": {
+      "coef_min": 0.40,
+      "coef_max": 0.50,
+      "coef_use": 0.45,
+      "cycle_weeks_min": 3,
+      "cycle_weeks_max": 6,
+      "n_ventes_calibration": 0,
+      "calibration_status": "HEURISTIC",
+      "examples": "Hilti, Festool, Snap-On, Knipex"
+    },
+    "pro_av_legacy": {
+      "coef_min": 0.25,
+      "coef_max": 0.35,
+      "coef_use": 0.30,
+      "cycle_weeks_min": 8,
+      "cycle_weeks_max": 16,
+      "n_ventes_calibration": 0,
+      "calibration_status": "HEURISTIC",
+      "examples": "Crestron, Kramer, JBL Pro · marché niche revendeur"
+    },
+    "audio_hifi_legacy": {
+      "coef_min": 0.25,
+      "coef_max": 0.35,
+      "coef_use": 0.30,
+      "cycle_weeks_min": 8,
+      "cycle_weeks_max": 16,
+      "n_ventes_calibration": 0,
+      "calibration_status": "HEURISTIC",
+      "note": "Pour B2C unitaire, utiliser coef 0.75-0.85 (B2C eBay direct)",
+      "examples": "Marantz, Denon vintage, lecteurs CD années 2000"
+    }
+  },
+
+  "scenarios_revente": {
+    "b2b_revendeur_bulk": {
+      "description": "Revente en bloc à un revendeur spécialisé (cycle court 2-6 sem)",
+      "frais_ebay_pct": 0.0,
+      "formula": "E_B2B = mediane_eBay × coef_b2b_categorie × quantite"
+    },
+    "b2c_ebay_unitaire": {
+      "description": "Revente unitaire B2C eBay (cycle long 2-4 mois, mais marge ×2-3)",
+      "frais_ebay_pct": 0.15,
+      "formula": "E_B2C = mediane_eBay × 0.85 × quantite"
+    }
+  },
+
+  "coef_capital_par_pays": {
+    "BE": 1.44,
+    "NL": 1.44,
+    "DE": 1.30,
+    "FR": "verifier_au_cas_par_cas"
+  },
+
+  "review_calibration_when": "≥5 ventes effectives dans une catégorie → recalculer coef_use depuis journal_postmortem.md"
+}

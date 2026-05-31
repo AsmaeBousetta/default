@@ -1,0 +1,630 @@
+{
+  "$schema": "MosaScout state file v1.0",
+  "last_updated": "2026-05-30T05:37:33+00:00",
+  "last_session_id": "session_27-28mai_2026",
+  "operator": "Asmae Bousetta",
+  "base_location": "Liège, BE",
+  "budget_status": {
+    "total_budget_eur": 800,
+    "engaged_eur": 0,
+    "armed_pending_eur": 0,
+    "reserve_eur": 800,
+    "next_window_target": "Hilti A1-46859 (02/06)"
+  },
+  "pipeline_active": [
+    {
+      "lot_id": "A1-45182-34",
+      "auction_id": "A1-45182",
+      "auction_title": "Faillite Rein4ced (Lummen BE)",
+      "article": "Sato CL4NX (×2) imprimantes étiquettes",
+      "category": "imprimantes_pos",
+      "closes_at": "2026-05-28T14:35:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-28T01:31:35+00:00",
+        "marteau_eur": 45.0,
+        "bids": 2,
+        "watchers": null
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 6,
+        "ebay_de_new_active": 65,
+        "ratio_new_sold": 10.8,
+        "saturation_neuf": "HIGH",
+        "mediane_sold_used_eur": 300,
+        "prix_neuf_entry_eur": 294,
+        "mediane_B2B_v4_eur": 191,
+        "verdict": "GO_B2C_ONLY",
+        "note": "Marge B2B effondrée par saturation neuf · revente B2C unitaire viable"
+      },
+      "plafond_marteau_eur": 45,
+      "capital_max_eur": 65,
+      "profit_b2b_estime_eur": 80,
+      "profit_b2c_estime_eur": 445,
+      "demand_factor": 0.5,
+      "cycle_mois": 1.5,
+      "score_v4": 8.2,
+      "confidence": "MED",
+      "status": "READY_TO_ARM",
+      "next_action": "Asmae arme auto-bid €45 jeudi matin 09h30",
+      "url": "https://www.troostwijkauctions.com/fr/l/imprimante-d-etiquettes-sato-cl4nx-2x-A1-45182-34"
+    },
+    {
+      "lot_id": "A1-45182-79",
+      "auction_id": "A1-45182",
+      "auction_title": "Faillite Rein4ced (Lummen BE)",
+      "article": "Scanner AT-002 2D (×10)",
+      "category": "scanner_pos_bulk",
+      "closes_at": "2026-05-28T15:23:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-28T05:47:51+00:00",
+        "marteau_eur": 25.0,
+        "bids": 0,
+        "watchers": null
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 0,
+        "ebay_fr_sold_90j": 0,
+        "verdict": "PATHFINDER_CONFIRMED · 0 sold 2 marchés EU",
+        "checked_at": "2026-05-28T07:00:00+00:00"
+      },
+      "plafond_marteau_eur": 0,
+      "capital_max_eur": 0,
+      "profit_b2b_estime_eur": 0,
+      "profit_b2c_estime_eur": 0,
+      "demand_factor": 0.0,
+      "cycle_mois": null,
+      "score_v4": 0.0,
+      "confidence": "SKIP",
+      "status": "SKIP_PATHFINDER",
+      "next_action": "SKIP — One Two AT-002 ajouté à pathfinder_blacklist.json",
+      "url": "https://www.troostwijkauctions.com/fr/l/nos-deux-scanners-at-002-2d-10x-A1-45182-79"
+    },
+    {
+      "lot_id": "A1-45182-110",
+      "auction_id": "A1-45182",
+      "auction_title": "Faillite Rein4ced (Lummen BE)",
+      "article": "Différentes gammes (×4) = 4 balances Kern + Soehnle",
+      "category": "scales_balances_lab",
+      "closes_at": "2026-05-28T14:51:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-28T07:05:00+00:00",
+        "marteau_eur": 50,
+        "bids": 0,
+        "watchers": 9
+      },
+      "calibration_ebay_v4": {
+        "mediane_sold_used_eur": 280,
+        "breakdown": {
+          "kern_precision_balance": 150,
+          "kern_small_balance": 50,
+          "soehnle_pese_sealed": 30,
+          "kern_pocket_digital": 50
+        },
+        "mediane_B2B_v4_eur": 112,
+        "verdict": "GO_B2C_ONLY · découvert visual audit (titre vague 'gammes' = balances)"
+      },
+      "plafond_marteau_eur": 54,
+      "capital_max_eur": 78,
+      "profit_b2b_estime_eur": 34,
+      "profit_b2c_estime_eur": 100,
+      "score_v4": 9.0,
+      "confidence": "MED",
+      "status": "READY_TO_ARM",
+      "next_action": "Asmae arme auto-bid €54 STRICT avant 14:51 (B2C only · split 4 listings · Soehnle sealed = retail direct)",
+      "pickup": {
+        "location": "Klaverbladstraat 19d, 3560 Lummen, BE",
+        "date": "2026-06-04T09:00-16:00"
+      },
+      "url": "https://www.troostwijkauctions.com/fr/l/differentes-gammes-4x-A1-45182-110"
+    },
+    {
+      "lot_id": "A1-45182-86",
+      "auction_id": "A1-45182",
+      "auction_title": "Faillite Rein4ced (Lummen BE)",
+      "article": "Dymo LabelWriter 450 + LabelWriter Wireless 550W (×2)",
+      "category": "imprimantes_etiquettes",
+      "closes_at": "2026-05-28T14:23:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-28T07:05:00+00:00",
+        "marteau_eur": 30,
+        "bids": 3,
+        "watchers": 23
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 87,
+        "mediane_sold_used_unit_eur": 80,
+        "lot_value_total_eur": 170,
+        "mediane_B2B_v4_eur": 68,
+        "verdict": "GO_B2C_ONLY · Visual confirmed Dymo brand both units"
+      },
+      "plafond_marteau_eur": 40,
+      "capital_max_eur": 58,
+      "profit_b2b_estime_eur": 10,
+      "profit_b2c_estime_eur": 93,
+      "score_v4": 8.5,
+      "confidence": "HI",
+      "status": "READY_TO_ARM",
+      "next_action": "Asmae arme auto-bid €40 STRICT avant 14:23 (CONDITIONAL si Sato sécurisé · B2C split 2 listings)",
+      "pickup": {
+        "location": "Klaverbladstraat 19d, 3560 Lummen, BE",
+        "date": "2026-06-04T09:00-16:00"
+      },
+      "url": "https://www.troostwijkauctions.com/fr/l/etiqueteur-demo-450-et-imprimante-sans-fil-labelwriter-A1-45182-86"
+    },
+    {
+      "lot_id": "A1-40520-1852",
+      "auction_id": "A1-40520",
+      "auction_title": "Thorn US Army surplus",
+      "article": "HP 8153A Lightwave Multimeter mainframe",
+      "category": "test_eq_intemporel",
+      "closes_at": "2026-05-29T18:00:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-29T12:33:03+00:00",
+        "marteau_eur": 10.0,
+        "bids": 0,
+        "watchers": null
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 4,
+        "ebay_de_new_active": 3,
+        "ratio_new_sold": 0.75,
+        "saturation_neuf": "LOW",
+        "mediane_sold_mainframe_eur": 200,
+        "mediane_sold_complet_modules_eur": 500,
+        "mediane_B2B_v4_eur": 110,
+        "verdict": "GO_REDUCED",
+        "note": "Scout v2 estimait médiane €450, réalité €200 (mainframe seul). Plafond corrigé v2->v4."
+      },
+      "plafond_marteau_eur": 19,
+      "capital_max_eur": 27,
+      "profit_b2b_estime_eur": 83,
+      "profit_b2c_estime_eur": 143,
+      "demand_factor": 0.5,
+      "cycle_mois": 2.0,
+      "score_v4": 7.4,
+      "confidence": "MED",
+      "status": "READY_TO_ARM",
+      "next_action": "Asmae arme auto-bid €19 jeudi 28/05 soir",
+      "url": "https://www.troostwijkauctions.com/fr/l/hp-agilent-8153a-lightwave-multimeter-mainframe-A1-40520-1852"
+    },
+    {
+      "lot_id": "A1-40520-2719",
+      "auction_id": "A1-40520",
+      "auction_title": "Thorn US Army surplus",
+      "article": "Tektronix 2465B oscilloscope 4-canaux",
+      "category": "test_eq_intemporel",
+      "closes_at": "2026-05-29T18:00:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-29T12:15:28+00:00",
+        "marteau_eur": 80.0,
+        "bids": 14,
+        "watchers": null
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 15,
+        "ebay_de_new_active": 3,
+        "ratio_new_sold": 0.2,
+        "saturation_neuf": "LOW",
+        "mediane_sold_complet_eur": 250,
+        "mediane_B2B_v4_eur": 137,
+        "verdict": "GO_CONFIRMED",
+        "note": "Marché sain. Discontinued = pas de saturation neuf. NEW=3 sont accessoires NOS."
+      },
+      "plafond_marteau_eur": 28,
+      "capital_max_eur": 40,
+      "profit_b2b_estime_eur": 97,
+      "profit_b2c_estime_eur": 172,
+      "demand_factor": 0.7,
+      "cycle_mois": 2.0,
+      "score_v4": 10.2,
+      "confidence": "HI",
+      "status": "OVERBID_SKIP",
+      "next_action": "Asmae arme auto-bid €28 jeudi 28/05 soir",
+      "url": "https://www.troostwijkauctions.com/fr/l/tektronix-2465b-oscilloscope-A1-40520-2719",
+      "status_history": [
+        {
+          "timestamp": "2026-05-29T12:15:28+00:00",
+          "from": "READY_TO_ARM",
+          "to": "OVERBID_SKIP",
+          "reason": "marteau ×2.86 plafond"
+        },
+        {
+          "timestamp": "2026-05-29T12:15:28+00:00",
+          "from": "OVERBID_SKIP",
+          "to": "OVERBID_SKIP"
+        }
+      ]
+    },
+    {
+      "lot_id": "A1-40520-2676",
+      "auction_id": "A1-40520",
+      "auction_title": "Thorn US Army surplus",
+      "article": "Tektronix 2235 oscilloscope vintage 100MHz",
+      "category": "test_eq_intemporel",
+      "closes_at": "2026-05-29T18:00:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-29T12:31:36+00:00",
+        "marteau_eur": 35.0,
+        "bids": 6,
+        "watchers": null
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 25,
+        "ebay_de_new_active": null,
+        "ratio_new_sold": 0.12,
+        "saturation_neuf": "LOW",
+        "mediane_sold_complet_eur": 170,
+        "mediane_B2B_v4_eur": 94,
+        "verdict": "GO_ALPHA",
+        "note": "Marché collector très actif (ham radio, écoles tech). 25 sold/90j est excellent."
+      },
+      "plafond_marteau_eur": 19,
+      "capital_max_eur": 27,
+      "profit_b2b_estime_eur": 67,
+      "profit_b2c_estime_eur": 118,
+      "demand_factor": 0.7,
+      "cycle_mois": 2.0,
+      "score_v4": 11.8,
+      "confidence": "HI",
+      "status": "OVERBID_SKIP",
+      "next_action": "Asmae arme auto-bid €19 jeudi 28/05 soir",
+      "url": "https://www.troostwijkauctions.com/fr/l/tektronix-2235-oscilloscope-A1-40520-2676",
+      "status_history": [
+        {
+          "timestamp": "2026-05-29T12:31:36+00:00",
+          "from": "READY_TO_ARM",
+          "to": "OVERBID_SKIP",
+          "reason": "marteau ×1.84 plafond"
+        },
+        {
+          "timestamp": "2026-05-29T12:31:36+00:00",
+          "from": "OVERBID_SKIP",
+          "to": "OVERBID_SKIP"
+        }
+      ]
+    }
+  ],
+  "pipeline_future": [
+    {
+      "lot_id": "A1-38772-58",
+      "auction_id": "A1-38772",
+      "auction_title": "IT apparatuur en kantoorbenodigdheden (Oisterwijk/Hedel NL)",
+      "article": "Zebra ZM400 imprimante d'étiquettes thermique",
+      "category": "imprimantes_pos",
+      "closes_at": "2026-06-02T20:49:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-30T05:37:33+00:00",
+        "marteau_eur": 10.0,
+        "bids": 1,
+        "watchers": null
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 61,
+        "mediane_sold_used_eur": 150,
+        "mediane_B2B_v4_eur": 60,
+        "demand_factor": 1.0,
+        "verdict": "GO_CONFIRMED"
+      },
+      "plafond_marteau_eur": 17,
+      "capital_max_eur": 24,
+      "profit_b2b_estime_eur": 36,
+      "profit_b2c_estime_eur": 114,
+      "score_v4": 13.5,
+      "confidence": "HI",
+      "status": "READY_TO_ARM",
+      "next_action": "Asmae arme auto-bid €17 lundi 01/06 soir (alpha-window 5w only)",
+      "url": "https://www.troostwijkauctions.com/fr/l/zebra-zm400-imprimante-d-etiquettes-A1-38772-58"
+    },
+    {
+      "lot_id": "A1-38772-54",
+      "auction_id": "A1-38772",
+      "auction_title": "IT apparatuur en kantoorbenodigdheden (Oisterwijk/Hedel NL)",
+      "article": "Zebra/Teklogix MC330K/WA9003-G1 ordinateur mobile (×2)",
+      "category": "scanner_pos_bulk",
+      "closes_at": "2026-06-02T19:37:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-30T05:37:33+00:00",
+        "marteau_eur": 41.0,
+        "bids": 8,
+        "watchers": null
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 18,
+        "mediane_sold_used_single_eur": 175,
+        "lot_value_total_eur": 350,
+        "mediane_B2B_v4_eur": 140,
+        "demand_factor": 1.0,
+        "verdict": "GO_CONFIRMED"
+      },
+      "plafond_marteau_eur": 39,
+      "capital_max_eur": 56,
+      "profit_b2b_estime_eur": 84,
+      "profit_b2c_estime_eur": 226,
+      "score_v4": 16.0,
+      "confidence": "HI",
+      "status": "OVERBID_SKIP",
+      "next_action": "Asmae arme auto-bid €39 lundi 01/06 soir (TOP score · alpha 4w)",
+      "url": "https://www.troostwijkauctions.com/fr/l/zebra-teklogix-mc330k-wa9003-g1-ordinateur-mobile-2x-A1-38772-54",
+      "status_history": [
+        {
+          "timestamp": "2026-05-30T05:37:33+00:00",
+          "from": "READY_TO_ARM",
+          "to": "OVERBID_SKIP",
+          "reason": "marteau ×1.05 plafond"
+        }
+      ]
+    },
+    {
+      "lot_id": "A1-38772-50",
+      "auction_id": "A1-38772",
+      "auction_title": "IT apparatuur en kantoorbenodigdheden (Oisterwijk/Hedel NL)",
+      "article": "Zebra TC210K scanner de codes-barres Android",
+      "category": "scanner_pos",
+      "closes_at": "2026-06-02T21:45:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-30T05:37:33+00:00",
+        "marteau_eur": 24.0,
+        "bids": 5,
+        "watchers": null
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 59,
+        "mediane_sold_used_eur": 200,
+        "mediane_B2B_v4_eur": 80,
+        "demand_factor": 1.0,
+        "verdict": "GO_CONFIRMED"
+      },
+      "plafond_marteau_eur": 22,
+      "capital_max_eur": 32,
+      "profit_b2b_estime_eur": 48,
+      "profit_b2c_estime_eur": 131,
+      "score_v4": 12.0,
+      "confidence": "HI",
+      "status": "OVERBID_SKIP",
+      "next_action": "Asmae arme auto-bid €22 lundi 01/06 soir",
+      "url": "https://www.troostwijkauctions.com/fr/l/zebra-tc210k-scanner-de-codes-barres-android-A1-38772-50",
+      "status_history": [
+        {
+          "timestamp": "2026-05-30T05:37:33+00:00",
+          "from": "READY_TO_ARM",
+          "to": "OVERBID_SKIP",
+          "reason": "marteau ×1.09 plafond"
+        }
+      ]
+    },
+    {
+      "lot_id": "A1-45815-237",
+      "auction_id": "A1-45815",
+      "auction_title": "Faillite collective IT (Barneveld NL)",
+      "article": "Cisco Catalyst 9300 48-port PoE switch 19\"",
+      "category": "network_enterprise",
+      "closes_at": "2026-06-01T15:40:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-29T01:14:52+00:00",
+        "marteau_eur": 220.0,
+        "bids": 27,
+        "watchers": null
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 16,
+        "mediane_sold_used_eur": 900,
+        "mediane_B2B_v4_eur": 450,
+        "demand_factor": 1.0,
+        "verdict": "GO_REDUCED · escalation déjà entamée"
+      },
+      "plafond_marteau_eur": 125,
+      "capital_max_eur": 180,
+      "profit_b2b_estime_eur": 270,
+      "profit_b2c_estime_eur": 585,
+      "score_v4": 10.5,
+      "confidence": "MED",
+      "status": "OVERBID_SKIP",
+      "next_action": "Asmae arme auto-bid €125 lundi 01/06 (risque escalade au-delà du plafond)",
+      "url": "https://www.troostwijkauctions.com/fr/l/switch-cisco-catalyst-9300-48-poe-19-A1-45815-237",
+      "status_history": [
+        {
+          "timestamp": "2026-05-29T01:14:52+00:00",
+          "from": "READY_TO_ARM",
+          "to": "OVERBID_SKIP",
+          "reason": "marteau ×1.76 plafond"
+        }
+      ]
+    },
+    {
+      "lot_id": "A1-46306-1654",
+      "auction_id": "A1-46306",
+      "auction_title": "IT Tiel NL",
+      "article": "Cisco Catalyst 3560 (24-port enterprise switch)",
+      "category": "network_enterprise",
+      "closes_at": "2026-05-28T15:03:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-28T03:50:00+02:00",
+        "marteau_eur": 10,
+        "bids": 0,
+        "watchers": 8
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 78,
+        "mediane_sold_used_eur": 60,
+        "mediane_B2B_v4_eur": 30,
+        "demand_factor": 1.0,
+        "verdict": "B2C_ONLY"
+      },
+      "plafond_marteau_eur": 10,
+      "capital_max_eur": 14,
+      "profit_b2b_estime_eur": 8,
+      "profit_b2c_estime_eur": 37,
+      "score_v4": 7.0,
+      "confidence": "MED",
+      "status": "CONDITIONAL_TODAY",
+      "next_action": "Arme €10 plafond strict avant 15:03 si dispo (B2C only)",
+      "url": "https://www.troostwijkauctions.com/fr/l/catalyseur-cisco-3560-A1-46306-1654"
+    },
+    {
+      "_NOTE": "Lots Hilti A1-46859 retirés du pipeline_active par décision Asmae 28/05 — outillage exclu, focus pur électronique. Recallable via journal_postmortem si décision change.",
+      "lot_id": "A1-46859-21_PARKED",
+      "auction_id": "A1-46859",
+      "auction_title": "Hilti Geesteren NL [PARKED — outillage hors scope]",
+      "article": "Hilti SIW6AT-A22 clé à choc",
+      "category": "outils_main_pro",
+      "closes_at": "2026-06-02T19:43:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-28T03:30:00+02:00",
+        "marteau_eur": 10,
+        "bids": 1,
+        "watchers": 11
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 26,
+        "mediane_sold_used_eur": 200,
+        "mediane_B2B_v4_eur": 90,
+        "demand_factor": 1.0,
+        "verdict": "GO_CONFIRMED"
+      },
+      "plafond_marteau_eur": 18,
+      "capital_max_eur": 26,
+      "profit_b2b_estime_eur": 60,
+      "profit_b2c_estime_eur": 156,
+      "score_v4": 12.0,
+      "confidence": "HI",
+      "status": "PARKED_OUTILLAGE_EXCLUDED",
+      "next_action": "Pas d'armement — lot mis de côté (décision Asmae 28/05 : focus pur électronique)",
+      "url": "https://www.troostwijkauctions.com/fr/l/cle-a-choc-hilti-siw6at-a22-A1-46859-21"
+    },
+    {
+      "lot_id": "A1-46859-27",
+      "auction_id": "A1-46859",
+      "auction_title": "Hilti Geesteren NL",
+      "article": "Hilti SIW6AT-A22 clé à choc (twin lot)",
+      "category": "outils_main_pro",
+      "closes_at": "2026-06-02T20:25:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-28T03:30:00+02:00",
+        "marteau_eur": 10,
+        "bids": 1,
+        "watchers": 7
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 26,
+        "mediane_sold_used_eur": 200,
+        "mediane_B2B_v4_eur": 90,
+        "demand_factor": 1.0,
+        "verdict": "GO_CONFIRMED"
+      },
+      "plafond_marteau_eur": 18,
+      "capital_max_eur": 26,
+      "profit_b2b_estime_eur": 60,
+      "profit_b2c_estime_eur": 156,
+      "score_v4": 12.0,
+      "confidence": "HI",
+      "status": "PARKED_OUTILLAGE_EXCLUDED",
+      "next_action": "Pas d'armement — outillage hors scope (décision 28/05)",
+      "url": "https://www.troostwijkauctions.com/fr/l/cle-a-choc-hilti-siw6at-a22-A1-46859-27"
+    },
+    {
+      "lot_id": "A1-46859-15",
+      "auction_id": "A1-46859",
+      "auction_title": "Hilti Geesteren NL",
+      "article": "Hilti SID4-A22 tourneuse à choc",
+      "category": "outils_main_pro",
+      "closes_at": "2026-06-02T20:48:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-28T03:30:00+02:00",
+        "marteau_eur": 15,
+        "bids": 2,
+        "watchers": 17
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 36,
+        "mediane_sold_used_eur": 115,
+        "mediane_B2B_v4_eur": 75,
+        "demand_factor": 1.0,
+        "verdict": "GO_REDUCED"
+      },
+      "plafond_marteau_eur": 12,
+      "capital_max_eur": 17,
+      "profit_b2b_estime_eur": 30,
+      "profit_b2c_estime_eur": 88,
+      "score_v4": 8.5,
+      "confidence": "MED",
+      "status": "PARKED_OUTILLAGE_EXCLUDED",
+      "next_action": "Pas d'armement — outillage hors scope (décision 28/05)",
+      "url": "https://www.troostwijkauctions.com/fr/l/tourneuse-a-choc-hilti-sid4-a22-A1-46859-15"
+    },
+    {
+      "lot_id": "A1-46859-71",
+      "auction_id": "A1-46859",
+      "auction_title": "Hilti Geesteren NL",
+      "article": "Hilti SL6-A22 lampe de chantier LED",
+      "category": "outils_main_pro",
+      "closes_at": "2026-06-02T20:37:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-28T03:30:00+02:00",
+        "marteau_eur": 10,
+        "bids": 1,
+        "watchers": 13
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 9,
+        "mediane_sold_used_eur": 170,
+        "mediane_B2B_v4_eur": 77,
+        "demand_factor": 0.7,
+        "verdict": "GO_CONFIRMED"
+      },
+      "plafond_marteau_eur": 18,
+      "capital_max_eur": 26,
+      "profit_b2b_estime_eur": 51,
+      "profit_b2c_estime_eur": 130,
+      "score_v4": 10.5,
+      "confidence": "HI",
+      "status": "PARKED_OUTILLAGE_EXCLUDED",
+      "next_action": "Pas d'armement — outillage hors scope (décision 28/05)",
+      "url": "https://www.troostwijkauctions.com/fr/l/lampe-de-chantier-hilti-sl6-a22-A1-46859-71"
+    },
+    {
+      "lot_id": "A1-46859-47",
+      "auction_id": "A1-46859",
+      "auction_title": "Hilti Geesteren NL",
+      "article": "Hilti SJD6-A22 scie sauteuse",
+      "category": "outils_main_pro",
+      "closes_at": "2026-06-02T20:17:00+02:00",
+      "last_check": {
+        "timestamp": "2026-05-28T03:30:00+02:00",
+        "marteau_eur": 10,
+        "bids": 1,
+        "watchers": 14
+      },
+      "calibration_ebay_v4": {
+        "ebay_de_sold_90j": 11,
+        "mediane_sold_used_machine_only_eur": 140,
+        "mediane_B2B_v4_eur": 63,
+        "demand_factor": 0.7,
+        "verdict": "GO_REDUCED",
+        "note": "Sold mix accessoires + machines, médiane machine seule ~€140"
+      },
+      "plafond_marteau_eur": 14,
+      "capital_max_eur": 20,
+      "profit_b2b_estime_eur": 43,
+      "profit_b2c_estime_eur": 99,
+      "score_v4": 9.0,
+      "confidence": "MED",
+      "status": "PARKED_OUTILLAGE_EXCLUDED",
+      "next_action": "Pas d'armement — outillage hors scope (décision 28/05)",
+      "url": "https://www.troostwijkauctions.com/fr/l/hilti-sjd6-a22-scie-suteuse-A1-46859-47"
+    }
+  ],
+  "session_log": [
+    {
+      "session_id": "session_27-28mai_2026",
+      "date": "2026-05-27 to 2026-05-28",
+      "summary": "Calibration eBay v4 appliquée à 5 candidats. Découvertes : Testo Saveris2 SKIP (saturation neuf), Lutron TM-947SD SKIP (Pathfinder), HP 8153A plafond divisé par 2.7, Tek 2465B + 2235 confirmés sains, Sato GO B2C-only.",
+      "files_created": [
+        "2026-05-28_MISSION-LIVE_J0_morning_v3.html",
+        "2026-05-28_RANK_28mai-uniquement_score-composite.html",
+        "2026-05-28_RANK_28mai_CORRIGE_eBay-new-vs-used.html",
+        "2026-05-28_ANALYSE_29-30mai_v4-calibration.html",
+        "mosascout_state/* (base persistante Phase 1)"
+      ]
+    }
+  ]
+}

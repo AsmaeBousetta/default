@@ -1,0 +1,431 @@
+{
+  "$schema": "MosaScout state file v2.0",
+  "last_updated": "2026-05-31T10:44:29+00:00",
+  "operator": "Asmae Bousetta",
+  "base_location": "Liège, BE",
+  "budget_status": {
+    "total_budget_eur": 800,
+    "engaged_eur": 626,
+    "armed_pending_eur": 0,
+    "reserve_eur": 174,
+    "next_window_target": "Cisco A1-45815 lundi 01/06 + Zebra A1-38772 mardi 02/06 + nouvelles auctions LUN-JEU 08-11/06 (Hilti DD160E Peer BE, Sennheiser MKH 8020 Willebroek BE, Cisco Webex Loon op Zand NL)"
+  },
+  "lots": {
+    "A1-45819-308": {
+      "auction_id": "A1-45819",
+      "auction_title": "Faillite Overpelt BE",
+      "article": "Lovato SM1R 0650 ×40 disjoncteurs moteur NOS",
+      "category": "disjoncteurs_motor_protection",
+      "achat": {
+        "marteau_eur": 100,
+        "capital_tout_inclus_eur": 144,
+        "plafond_marteau_eur": 120,
+        "closes_at": "2026-05-28T15:30:00+02:00",
+        "watchers_max": 12,
+        "bids_at_close": 3,
+        "stock_count_announced": 40,
+        "stock_count_real": null,
+        "test_result": "pending_pickup",
+        "pickup_date": "2026-06-04",
+        "pickup_location": "Stuifzandstraat 59, 3900 Overpelt, BE"
+      },
+      "revente": {
+        "ebay_listing_id": "306972131764",
+        "ebay_listing_url": "https://www.ebay.com/itm/306972131764",
+        "price_listed_usd": 54.9,
+        "quantity_visible": 5,
+        "quantity_total": 40,
+        "quantity_sold": 0,
+        "best_offer_accept": 42.0,
+        "best_offer_min": 35.0,
+        "b2b_outreach": [
+          {
+            "seller": "maddistribution2022",
+            "platform": "ebay",
+            "sent_at": "2026-05-29T14:16",
+            "reply_received": false,
+            "reply_status": "silent"
+          },
+          {
+            "seller": "northeast-parts",
+            "platform": "ebay",
+            "sent_at": "2026-05-29T14:46",
+            "reply_received": false,
+            "reply_status": "silent"
+          },
+          {
+            "seller": "johnm35",
+            "platform": "ebay",
+            "sent_at": "2026-05-29T14:48",
+            "reply_received": true,
+            "reply_status": "declined"
+          },
+          {
+            "seller": "palmindustrial",
+            "platform": "ebay",
+            "sent_at": "2026-05-29T14:51",
+            "reply_received": false,
+            "reply_status": "silent"
+          },
+          {
+            "seller": "oceanelectricalandsurplus",
+            "platform": "ebay",
+            "sent_at": "2026-05-29T14:55",
+            "reply_received": false,
+            "reply_status": "silent"
+          },
+          {
+            "seller": "wilson-distributions",
+            "platform": "ebay",
+            "sent_at": "2026-05-29T14:57",
+            "reply_received": false,
+            "reply_status": "silent"
+          },
+          {
+            "seller": "hotshotsresale2",
+            "platform": "ebay",
+            "sent_at": "2026-05-29T14:58",
+            "reply_received": false,
+            "reply_status": "silent"
+          },
+          {
+            "seller": "fcc-emarket",
+            "platform": "ebay",
+            "sent_at": "2026-05-29T15:00",
+            "reply_received": true,
+            "reply_status": "declined"
+          }
+        ],
+        "sales_log": []
+      },
+      "sync": {
+        "status": "listed",
+        "last_updated": "2026-05-30T19:30:00+02:00",
+        "agent_active": "revente",
+        "next_action": "Finir outreach 4 sellers US restants (gelogistics, wiindustrialresale, ladistribution, recycleidaho) + lancer outreach EU (Cebeo, Sonepar, Rexel)"
+      },
+      "calibration_ebay": {
+        "mediane_sold_used_eur": 50,
+        "ebay_de_sold_90j": 10,
+        "verdict": "GO_CONFIRMED",
+        "last_calibration": "2026-05-28T13:00:00+02:00"
+      }
+    },
+    "A1-45819-125": {
+      "auction_id": "A1-45819",
+      "auction_title": "Faillite Overpelt BE",
+      "article": "Saia PCD ALE3D5F ×32 compteurs énergie MID",
+      "category": "compteurs_energie_mid",
+      "achat": {
+        "marteau_eur": 100,
+        "capital_tout_inclus_eur": 144,
+        "plafond_marteau_eur": 120,
+        "closes_at": "2026-05-28T14:00:00+02:00",
+        "stock_count_announced": 32,
+        "test_result": "pending_pickup",
+        "pickup_date": "2026-06-04",
+        "pickup_location": "Stuifzandstraat 59, 3900 Overpelt, BE"
+      },
+      "revente": {
+        "ebay_listing_id": null,
+        "quantity_total": 32,
+        "quantity_sold": 0,
+        "b2b_outreach": [],
+        "sales_log": []
+      },
+      "sync": {
+        "status": "won",
+        "last_updated": "2026-05-28T14:01:00+02:00",
+        "agent_active": "achat",
+        "next_action": "Pickup jeu. 04/06 + créer listing eBay après test + outreach EU prioritaire (Cebeo, Sonepar, Honeywell BMS)"
+      },
+      "calibration_ebay": {
+        "mediane_sold_used_eur": 50,
+        "ebay_de_sold_90j": 3,
+        "verdict": "GO_B2B_ONLY",
+        "last_calibration": "2026-05-28T13:00:00+02:00",
+        "note": "Marché eBay très faible (3 sold/90j) — priorité B2B EU absolue"
+      }
+    },
+    "A1-45819-364": {
+      "auction_id": "A1-45819",
+      "auction_title": "Faillite Overpelt BE",
+      "article": "Eaton MMX34CP3D3F2-R ×5 drives 1,5 kW",
+      "category": "drives_industriels",
+      "achat": {
+        "marteau_eur": 135,
+        "capital_tout_inclus_eur": 194,
+        "plafond_marteau_eur": 150,
+        "closes_at": "2026-05-28T14:30:00+02:00",
+        "stock_count_announced": 5,
+        "test_result": "pending_pickup",
+        "pickup_date": "2026-06-04",
+        "pickup_location": "Stuifzandstraat 59, 3900 Overpelt, BE"
+      },
+      "revente": {
+        "ebay_listing_id": null,
+        "quantity_total": 5,
+        "quantity_sold": 0,
+        "b2b_outreach": [],
+        "sales_log": []
+      },
+      "sync": {
+        "status": "won",
+        "last_updated": "2026-05-28T14:31:00+02:00",
+        "agent_active": "achat",
+        "next_action": "TEST PICKUP OBLIGATOIRE (multimètre + multiprise) — DOA risk 20-30%. Si OK : outreach EU Automation, DAS Inverters NL, Reliable Industrial DE"
+      },
+      "calibration_ebay": {
+        "mediane_sold_used_eur": 250,
+        "ebay_de_sold_90j": 5,
+        "verdict": "GO_CONFIRMED",
+        "last_calibration": "2026-05-28T13:00:00+02:00",
+        "note": "DOA risk 20-30% sur drives non testées"
+      }
+    },
+    "A1-45819-278": {
+      "auction_id": "A1-45819",
+      "auction_title": "Faillite Overpelt BE",
+      "article": "Siemens Simatic IPC847C ×1 PC industriel rack",
+      "category": "industrial_pc",
+      "achat": {
+        "marteau_eur": 100,
+        "capital_tout_inclus_eur": 144,
+        "plafond_marteau_eur": 130,
+        "closes_at": "2026-05-28T15:00:00+02:00",
+        "stock_count_announced": 1,
+        "test_result": "pending_pickup",
+        "pickup_date": "2026-06-04",
+        "pickup_location": "Stuifzandstraat 59, 3900 Overpelt, BE"
+      },
+      "revente": {
+        "ebay_listing_id": null,
+        "quantity_total": 1,
+        "quantity_sold": 0,
+        "b2b_outreach": [],
+        "sales_log": []
+      },
+      "sync": {
+        "status": "won",
+        "last_updated": "2026-05-28T15:01:00+02:00",
+        "agent_active": "achat",
+        "next_action": "TEST PICKUP CRITIQUE (clavier + écran HDMI + multiprise). Stratégie binaire selon test : Windows OK = listing eBay €549 / POST seul = €399 / DOA = B2B parts €180"
+      },
+      "calibration_ebay": {
+        "mediane_sold_used_eur": 500,
+        "ebay_de_sold_90j": 10,
+        "verdict": "GO_TEST_FIRST",
+        "last_calibration": "2026-05-28T13:00:00+02:00",
+        "note": "Lot le plus risqué — DOA 30% probabilité. Test pickup décide la stratégie."
+      }
+    }
+  },
+  "pipeline_future": [
+    {
+      "lot_id": "A1-45815-237",
+      "auction_id": "A1-45815",
+      "article": "Cisco Catalyst 9300 48-port PoE",
+      "closes_at": "2026-06-01T15:40:00+02:00",
+      "armed_plafond_eur": 125,
+      "expected_profit_eur": 270,
+      "notes": "Priorité absolue - réserve cash dépendante du résultat",
+      "last_check": {
+        "timestamp": "2026-05-31T10:43:22+00:00",
+        "marteau_eur": 220.0,
+        "bids": 27,
+        "watchers": null
+      }
+    },
+    {
+      "lot_id": "A1-38772-58",
+      "auction_id": "A1-38772",
+      "article": "Zebra ZM400 imprimante étiquettes",
+      "closes_at": "2026-06-02T20:49:00+02:00",
+      "armed_plafond_eur": 17,
+      "expected_profit_eur": 36,
+      "last_check": {
+        "timestamp": "2026-05-31T10:44:29+00:00",
+        "marteau_eur": 10.0,
+        "bids": 0,
+        "watchers": null
+      }
+    },
+    {
+      "lot_id": "A1-38772-54",
+      "auction_id": "A1-38772",
+      "article": "Zebra MC330K ×2",
+      "closes_at": "2026-06-02T19:37:00+02:00",
+      "armed_plafond_eur": 39,
+      "expected_profit_eur": 84,
+      "last_check": {
+        "timestamp": "2026-05-31T10:44:29+00:00",
+        "marteau_eur": 10.0,
+        "bids": 1,
+        "watchers": null
+      }
+    },
+    {
+      "lot_id": "A1-38772-50",
+      "auction_id": "A1-38772",
+      "article": "Zebra TC210K scanner",
+      "closes_at": "2026-06-02T21:45:00+02:00",
+      "armed_plafond_eur": 22,
+      "expected_profit_eur": 48,
+      "last_check": {
+        "timestamp": "2026-05-31T10:44:29+00:00",
+        "marteau_eur": 10.0,
+        "bids": 1,
+        "watchers": null
+      }
+    },
+    {
+      "lot_id": "A1-46912-216",
+      "auction_id": "A1-46912",
+      "auction_title": "Design- en Kantoormeubelen (boring title — caché)",
+      "article": "Samsung/Cisco — Système de conférence 55\" + barre son",
+      "pickup_location": "Boven-Leeuwen, NL",
+      "closes_at": "2026-06-08T20:36:00+02:00",
+      "current_bid_eur": 6,
+      "armed_plafond_eur": 110,
+      "expected_profit_eur": 292,
+      "notes": "P1 Pro AV visioconf. Combo possible avec lot 120 (2e unité identique). Status NRP."
+    },
+    {
+      "lot_id": "A1-43950-22898",
+      "auction_id": "A1-43950",
+      "auction_title": "Fixations vis Wurth/Rotadrill/Spax (boring title)",
+      "article": "Schneider Electric MTN5250 — Gradateur plaque centrale (160×)",
+      "pickup_location": "Bocholt, BE",
+      "closes_at": "2026-06-08T20:58:00+02:00",
+      "current_bid_eur": 1,
+      "armed_plafond_eur": 40,
+      "expected_profit_eur": 142,
+      "notes": "P1 Schneider KNX domotique bulk sealed. Pickup BE proximité Liège."
+    },
+    {
+      "lot_id": "A1-46058-41",
+      "auction_id": "A1-46058",
+      "auction_title": "Mobilier de jardin, barbecues et parasols (BORING titre suprême)",
+      "article": "Hilti DD160E — Perceuse diamantée sur trépied",
+      "pickup_location": "Peer, BE",
+      "closes_at": "2026-06-09T15:05:00+02:00",
+      "current_bid_eur": 20,
+      "armed_plafond_eur": 220,
+      "expected_profit_eur": 583,
+      "notes": "P1 ALPHA ABSOLU. Pickup BE Peer proximité Liège. Hilti pro retail €3000-4000, eBay used €1100-1700."
+    },
+    {
+      "lot_id": "A1-46405-3077",
+      "auction_id": "A1-46405",
+      "auction_title": "Matériel audio et vidéo professionnel",
+      "article": "Sennheiser MKH 8020 — Microphone studio pro condensateur omni",
+      "pickup_location": "Willebroek, BE",
+      "closes_at": "2026-06-10T20:33:00+02:00",
+      "current_bid_eur": 5,
+      "armed_plafond_eur": 110,
+      "expected_profit_eur": 225,
+      "notes": "P1 single-lot Tier-A. Retail €999, eBay used €450-650. Pickup BE proximité Liège."
+    },
+    {
+      "lot_id": "A1-41119-2041",
+      "auction_id": "A1-41119",
+      "auction_title": "Équipements médicaux et de laboratoire (boring — caché)",
+      "article": "Cisco Webex Room Kit TTC7-23 — Caméra haut-parleur (13×)",
+      "pickup_location": "Loon op Zand, NL",
+      "closes_at": "2026-06-10T20:12:00+02:00",
+      "current_bid_eur": 0,
+      "armed_plafond_eur": 100,
+      "expected_profit_eur": 4000,
+      "notes": "P1 ALPHA MASSIF si combo Touch 10. ×13 unités = profit potentiel ×30 sur capital. Volume 6-8 cartons, OK véhicule."
+    },
+    {
+      "lot_id": "A1-41119-2057",
+      "auction_id": "A1-41119",
+      "auction_title": "Équipements médicaux et de laboratoire",
+      "article": "Cisco Touch 10 — Contrôleur conférence (5×)",
+      "pickup_location": "Loon op Zand, NL",
+      "closes_at": "2026-06-10T20:15:00+02:00",
+      "current_bid_eur": 0,
+      "armed_plafond_eur": 45,
+      "expected_profit_eur": 685,
+      "notes": "Combo naturel avec Webex Room Kit. Plus alpha si gagné ensemble."
+    },
+    {
+      "lot_id": "A1-47089-249",
+      "auction_id": "A1-47089",
+      "auction_title": "Résidus de la faillite Grower Connect",
+      "article": "Zebra Performance — Ruban cire 2000 + Imprimante & scanner (32×)",
+      "pickup_location": "Oisterwijk, NL",
+      "closes_at": "2026-06-10T20:26:00+02:00",
+      "current_bid_eur": 0,
+      "armed_plafond_eur": 50,
+      "expected_profit_eur": 178,
+      "notes": "Consommables sealed bulk."
+    },
+    {
+      "lot_id": "A1-47089-210",
+      "auction_id": "A1-47089",
+      "auction_title": "Résidus de la faillite Grower Connect",
+      "article": "Datalogic Quickscan QD2430 — Scanner code-barre (10×)",
+      "pickup_location": "Oisterwijk, NL",
+      "closes_at": "2026-06-10T21:38:00+02:00",
+      "current_bid_eur": 0,
+      "armed_plafond_eur": 45,
+      "expected_profit_eur": 535,
+      "notes": "Lot bulk attractif. ROI ×9 si revente B2B."
+    },
+    {
+      "lot_id": "A1-46629-141",
+      "auction_id": "A1-46629",
+      "auction_title": "Inventaire des sociétés laitières",
+      "article": "CipherLab 9700 — Ordinateur mobile industriel handheld",
+      "pickup_location": "Veen, NL",
+      "closes_at": "2026-06-11T14:20:00+02:00",
+      "current_bid_eur": 0,
+      "armed_plafond_eur": 55,
+      "expected_profit_eur": 151,
+      "notes": "Combo possible avec Symbol Mc5040 ×2 + Mc70 + connecteurs (combo Veen)."
+    }
+  ],
+  "metrics": {
+    "current_month": {
+      "lots_scouted": 350,
+      "lots_armed": 14,
+      "lots_won": 4,
+      "outreach_b2b_sent": 8,
+      "b2b_responses": 2,
+      "b2b_deals_closed": 0,
+      "b2c_sales": 0,
+      "revenue_eur": 0,
+      "profit_eur": 0
+    },
+    "all_time": {
+      "lots_won": 4,
+      "lots_sold": 0,
+      "revenue_cumul_eur": 0,
+      "profit_cumul_eur": 0,
+      "capital_injected_total_eur": 800,
+      "first_session_date": "2026-05-27"
+    }
+  },
+  "session_log": [
+    {
+      "session_id": "session_29-30mai_2026",
+      "date": "2026-05-29 / 2026-05-30",
+      "summary": "4 lots A1-45819 Overpelt gagnés (capital €626). Listing eBay Lovato révisé. Outreach B2B Lovato 8/12 envoyés (2 refus). Plugin Cowork MosaScout v0.1.0 créé et installé. State.json v2 initialisé."
+    },
+    {
+      "session_id": "session_30mai_scan-08-11juin",
+      "date": "2026-05-30 soir",
+      "summary": "SCAN UNIVERSEL fenêtre 08-11 juin 2026. Méthode v5 catégorie Électronique + Appareillage de mesure + brand-search 14 marques. ~36 lots drillés individuellement sur ~320 total (11% couverture). 4 rapports HTML livrés (LUN/MAR/MER/JEU top10). 10 nouveaux lots Tier-A ajoutés à pipeline_future avec plafonds armés. PATTERN BORING-TITLE CONFIRMÉ 5×: Hilti DD160E dans 'mobilier jardin'; Cisco Webex dans 'équipements médicaux'; Schneider MTN dans 'fixations Wurth'; Cisco/Samsung visioconf dans 'kantoormeubelen'; Cisco Meraki dans 'remorques tracteurs'.",
+      "files_created": [
+        "2026-05-30_SCAN-08-10juin_master-findings.html",
+        "2026-05-30_LUNDI-08juin_electronique-top10.html",
+        "2026-05-30_MARDI-09juin_electronique-top10.html",
+        "2026-05-30_MERCREDI-10juin_electronique-top10.html",
+        "2026-05-30_JEUDI-11juin_electronique-top10.html"
+      ],
+      "handoff_to_next_session": "PRIORITÉ NEXT SESSION : extraction liste compacte exhaustive ~280 lots restants non-drillés Électronique BE+NL LUN-MAR-MER-JEU. Lire d'abord les 4 rapports HTML _top10 puis paginer pages 13-29 catégorie Électronique URL `/fr/c/electronique/781795f2-6fd0-4076-a88b-fc72154bb620?sort=closingTime,asc&country=BE,NL&page=N` (page 14-15=LUN, page 15-17=MAR, page 17-28=MER, page 29=JEU). Format compact: date+lot_id+title+city+watchers+bid+nb_bids. Filter ALPHA: NRP, multi-quantité ≥3, brand whitelist, ou bid faible vs estimation eBay. Drill détaillé candidates non-déjà identifiées."
+    }
+  ]
+}

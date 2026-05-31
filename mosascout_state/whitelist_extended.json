@@ -1,0 +1,275 @@
+{
+  "$schema": "MosaScout whitelist élargie v5",
+  "last_updated": "2026-05-28T13:30:00+02:00",
+  "description": "RÉFÉRENCE pour calibration rapide · PAS un filtre exclusif. Workflow v5 = scan auction-first universal. Une marque absente de cette whitelist mais avec ≥5 sold/90j eBay reste GO.",
+  "v5_changes": "Ajout industrial automation (Lenze · ABB drives · Siemens Sinamics/Simatic · Schneider Altivar · Lovato · Yaskawa · Mitsubishi · Beckhoff · Omron · Bosch Rexroth) · solar (SMA/Fronius/SolarEdge) · HiFi premium (Klipsch/Marantz/Cambridge/McIntosh) · balances lab (Kern/Sartorius/Mettler/Ohaus)",
+
+  "tier_1_scan_systematique": {
+    "description": "30 marques du brief original. Scan systématique sur chaque enchère via troostwijkauctions.com/fr/search?searchTerm=[MARQUE]",
+    "categories": {
+      "mesure_test_pro": {
+        "coef_b2b_range": [0.50, 0.65],
+        "cycle_mois": 2.0,
+        "brands": [
+          {"name": "HP", "notes": "Equipment Lightwave/Lab. Vérifier modules inclus (médiane varie ×5)"},
+          {"name": "Agilent", "notes": "Successeur HP test eq. Whitelist forte"},
+          {"name": "Keysight", "notes": "Successeur Agilent moderne"},
+          {"name": "Fluke", "notes": "Multimètres/clamps · marché actif EU"},
+          {"name": "Tektronix", "notes": "Oscilloscopes. 2235 et 2465B confirmés sains 28/05"}
+        ]
+      },
+      "audio_pro": {
+        "coef_b2b_range": [0.25, 0.35],
+        "cycle_mois": 3.0,
+        "brands": [
+          {"name": "Sennheiser", "notes": "Microphones pro · marché B2B sérieux"},
+          {"name": "Kramer", "notes": "Pro AV switchers · stock chez Asmae (VP-81 SIDN + VP-81 SID + VS-41H)"},
+          {"name": "JBL Pro", "notes": "Cinema speakers · volume palette souvent"},
+          {"name": "Bose Pro", "notes": "Installation speakers"},
+          {"name": "Crestron NVX", "notes": "Network AV — PIÈGE: leçon Crestron DMPS3 17/05 (retail/used 1:24)"}
+        ]
+      },
+      "outils_main_pro": {
+        "coef_b2b_range": [0.40, 0.50],
+        "cycle_mois": 1.5,
+        "brands": [
+          {"name": "Hilti", "notes": "Outils chantier pro · à recalibrer pour 02/06"},
+          {"name": "Festool", "notes": "Outils menuiserie pro · attention saturation"},
+          {"name": "Snap-On", "notes": "Outils méca pro"},
+          {"name": "Knipex", "notes": "Pinces pro allemand"}
+        ]
+      },
+      "industriel_niche": {
+        "coef_b2b_range": [0.30, 0.45],
+        "cycle_mois": 4.0,
+        "brands": [
+          {"name": "Pelican", "notes": "Cases pro · 1720/0450/0340 marché actif used"},
+          {"name": "Eisenblätter", "notes": "Polissage/abrasifs pro"},
+          {"name": "Sick", "notes": "Capteurs industriels"},
+          {"name": "Atlas Copco", "notes": "Compresseurs/outils air · TC54S Pathfinder"}
+        ]
+      },
+      "industrial_automation_drives_v5": {
+        "coef_b2b_range": [0.40, 0.55],
+        "cycle_mois": 2.5,
+        "_note_added_v5": "Manqué en v4. Marché B2B EU très liquide (refurbishers/machine builders).",
+        "brands": [
+          {"name": "Lenze", "notes": "8400/9400/i550 drives · L-Force servo · médiane €200-500 used"},
+          {"name": "ABB", "notes": "ACS150/ACS380/ACS580/ACS800 frequency drives · médiane €200-800"},
+          {"name": "Siemens Sinamics", "notes": "S120/V20/G120 drives · médiane variable selon kW"},
+          {"name": "Siemens Simatic", "notes": "S7-300/S7-1200/S7-1500 PLCs · IPC627C/847C/427C industrial PCs · médiane €400-800"},
+          {"name": "Schneider Altivar", "notes": "ATV12/ATV32/ATV312/ATV71 · médiane €100-400"},
+          {"name": "Schneider Modicon", "notes": "M340/M580 PLCs"},
+          {"name": "Yaskawa", "notes": "V1000/A1000/GA500 drives japanese premium"},
+          {"name": "Mitsubishi", "notes": "FR-E700/FR-D700 drives · FX5U PLCs"},
+          {"name": "Omron", "notes": "MX2/RX inverters · CJ2/NX PLCs"},
+          {"name": "Beckhoff", "notes": "CX series industrial PCs · EtherCAT terminals"},
+          {"name": "Bosch Rexroth", "notes": "IndraDrive · IndraControl · servo drives premium"},
+          {"name": "Lovato", "notes": "SM1R disjoncteurs moteur · contacteurs · médiane €25-80/unit"},
+          {"name": "Eaton", "notes": "PowerXL drives · molded case breakers"},
+          {"name": "Phoenix Contact", "notes": "QUINT power supplies · Inline I/O"},
+          {"name": "Wago", "notes": "750/767 series I/O modules · pluggable terminals"},
+          {"name": "Toshiba", "notes": "VFMB1/VFAS3 inverters"}
+        ]
+      },
+      "solar_renewable_v5": {
+        "coef_b2b_range": [0.35, 0.50],
+        "cycle_mois": 3.0,
+        "_note_added_v5": "Marché EU dominé par installers certifiés · public eBay limité",
+        "brands": [
+          {"name": "SMA", "notes": "Sunny Boy/Tripower inverters · marché B2C EU actif"},
+          {"name": "Fronius", "notes": "Symo/Primo inverters · marché actif"},
+          {"name": "SolarEdge", "notes": "HD-Wave inverters · optimizers"},
+          {"name": "Sungrow", "notes": "SG inverters"},
+          {"name": "Enphase", "notes": "IQ7/IQ8 microinverters"},
+          {"name": "Victron Energy", "notes": "MultiPlus inverters · charge controllers · marché RV/marine fort"}
+        ]
+      },
+      "hifi_premium_v5": {
+        "coef_b2b_range": [0.25, 0.40],
+        "cycle_mois": 3.0,
+        "_note_added_v5": "Audiophile market saturé sur Pruijn-style auctions · arme uniquement alpha-window",
+        "brands": [
+          {"name": "Klipsch", "notes": "RP series · The One · enceintes/floorstanders"},
+          {"name": "Marantz", "notes": "CD6007/PM amplis · récepteurs vintage"},
+          {"name": "Cambridge Audio", "notes": "Alva platines · CXA amplis"},
+          {"name": "McIntosh", "notes": "MA amplis premium US"},
+          {"name": "Bryston", "notes": "BP/BDA preamps Canadian premium"},
+          {"name": "Pro-Ject", "notes": "Platines vinyle · phono préamps"},
+          {"name": "ELAC", "notes": "Debut speakers"},
+          {"name": "Dali", "notes": "Phantom intégrés · floorstanders"},
+          {"name": "Focal", "notes": "Sib Evo · Aria"},
+          {"name": "Triangle", "notes": "Borea série · français peu indexé"},
+          {"name": "Magnat", "notes": "Interiour speakers integrated"},
+          {"name": "Sonoro", "notes": "MAESTRO récepteurs"}
+        ]
+      },
+      "balances_lab_v5": {
+        "coef_b2b_range": [0.40, 0.55],
+        "cycle_mois": 2.0,
+        "_note_added_v5": "Lab balance market actif eBay · marché B2B universités/labos/industries",
+        "brands": [
+          {"name": "Kern", "notes": "EW/PCB/PFB précision balances · médiane €100-250/unit"},
+          {"name": "Sartorius", "notes": "Entris/Quintix balances analytiques premium"},
+          {"name": "Mettler Toledo", "notes": "PG/PL/XS analytical balances"},
+          {"name": "Ohaus", "notes": "SP scale entry-level"},
+          {"name": "Soehnle", "notes": "Pèses-personnes consumer · sealed = retail B2C direct"}
+        ]
+      },
+      "imprimantes_pos_v5": {
+        "coef_b2b_range": [0.35, 0.45],
+        "cycle_mois": 1.5,
+        "brands": [
+          {"name": "Sato", "notes": "CL4NX/CL6NX thermal industrial · médiane €230-416/unit"},
+          {"name": "Zebra", "notes": "ZM400/110XiIII/GK420d/TC210K/MC330K · marché B2B très actif 50-180 sold/90j"},
+          {"name": "Brother", "notes": "P-touch series · QL/PT labelers"},
+          {"name": "Dymo", "notes": "LabelWriter 450/Wireless · 87 sold/90j · médiane €80/unit"},
+          {"name": "Honeywell", "notes": "PC42/PM43 thermal · Voyager scanners"},
+          {"name": "Datalogic", "notes": "Magellan/Gryphon scanners"},
+          {"name": "Citizen", "notes": "CL-S/CT-S thermal printers"},
+          {"name": "TSC", "notes": "TTP labelers entry-level"}
+        ]
+      },
+      "test_eq_extended_v5": {
+        "coef_b2b_range": [0.50, 0.65],
+        "cycle_mois": 2.0,
+        "_note_v5": "Élargi à Anritsu/Yokogawa/R&S",
+        "brands": [
+          {"name": "Anritsu", "notes": "Network analyzers · BERTs"},
+          {"name": "Rohde & Schwarz", "notes": "Signal generators · spectrum analyzers premium"},
+          {"name": "Yokogawa", "notes": "Power analyzers · oscilloscopes"},
+          {"name": "Mitutoyo", "notes": "Micromètres digitaux · pieds à coulisse"},
+          {"name": "Starrett", "notes": "Mesure mécanique pro US"}
+        ]
+      },
+      "network_it_v5": {
+        "coef_b2b_range": [0.45, 0.60],
+        "cycle_mois": 2.0,
+        "brands": [
+          {"name": "Cisco", "notes": "Catalyst 9300/3850/3560 switches · C8200 routers · 16-78 sold/90j"},
+          {"name": "Aruba", "notes": "Switches HPE 2530/2920/6300"},
+          {"name": "HPE", "notes": "ProCurve switches · Nimble storage"},
+          {"name": "Juniper", "notes": "EX series switches · SRX firewalls"},
+          {"name": "Fortinet", "notes": "FortiGate firewalls"},
+          {"name": "Mikrotik", "notes": "RouterBOARD · CCR/CRS"},
+          {"name": "Ubiquiti", "notes": "UniFi/EdgeRouter consumer-prosumer"}
+        ]
+      },
+      "imprimantes_3d_v5": {
+        "coef_b2b_range": [0.40, 0.55],
+        "cycle_mois": 2.0,
+        "brands": [
+          {"name": "Prusa", "notes": "i3 MK3S/MK4/MK4S/CORE One · enclosure · 67-111 sold/90j"},
+          {"name": "Ultimaker", "notes": "S3/S5/S7 Pro premium"},
+          {"name": "Bambu Lab", "notes": "X1/P1 newest gen high-speed"},
+          {"name": "Formlabs", "notes": "Form 3/4 SLA resin"},
+          {"name": "Markforged", "notes": "Mark Two/X7 carbon fiber"},
+          {"name": "Anycubic", "notes": "Photon resin · Kobra FDM"}
+        ]
+      }
+    }
+  },
+
+  "tier_2_decouverts_viables": {
+    "description": "Marques découvertes via calibration v4. Ajoutées au scan systématique.",
+    "brands": [
+      {
+        "brand": "Sato",
+        "model_example": "CL4NX",
+        "category": "imprimantes_pos",
+        "coef_b2b_realiste": 0.35,
+        "coef_b2c_unitaire": 0.75,
+        "date_added": "2026-05-28",
+        "calibration_note": "65 brand new actifs eBay.de = saturation. B2B bulk peu viable, mais B2C unitaire OK (médiane sold €230-416). Stratégie: revendre unitaire pas bulk.",
+        "default_verdict_logic": "GO_B2C_ONLY si médiane sold ≥ 0.7 × prix neuf actif min"
+      },
+      {
+        "brand": "Testo",
+        "model_example": "Saveris 2",
+        "category": "data_logger",
+        "date_added": "2026-05-28",
+        "calibration_note": "BLACKLIST conditional · marché saturé (38 NEW vs 6 SOLD). À retester dans 6 mois si lot avec marteau <€10",
+        "default_verdict_logic": "SKIP_DEFAULT · ne pas armer sans recheck eBay frais",
+        "linked_to_blacklist": true
+      }
+    ]
+  },
+
+  "tier_2_a_tester": {
+    "description": "Marques identifiées dans des lots de qualité mais non encore calibrées. Prioriser le test lors de prochaine apparition.",
+    "brands": [
+      {
+        "brand": "DeFelsko",
+        "model_example": "PosiTest AT-M",
+        "category": "test_eq_industriel",
+        "context": "Identifié dans Rein4ced lot 103 (28/05). Testeur d'adhésion industriel. Médiane neuf €600+",
+        "priority": "HIGH"
+      },
+      {
+        "brand": "AG Neovo",
+        "model_example": "MD-27 / FM-27",
+        "category": "monitor_medical_security",
+        "context": "10× lots Rein4ced 28/05 (A1-45182-45 à 58). eBay sold MD-27 exacte = €11-50 = probable accessoires. À recheck modèle exact + spec. Lots probablement Tier C plutôt que B2B viable.",
+        "priority": "LOW",
+        "tentative_verdict": "SKIP_FOR_NOW · revérifier si lot identique réapparaît"
+      },
+      {
+        "brand": "ABB",
+        "model_example": "DSQC679",
+        "category": "controle_robotique",
+        "context": "Identifié dans Rein4ced lot 106 (28/05). Carte contrôle robot ABB. Niche très spécialisée.",
+        "priority": "MEDIUM"
+      },
+      {
+        "brand": "Schmidt Control Instruments",
+        "model_example": "DTXB-1000-30-MH",
+        "category": "test_eq_industriel",
+        "context": "Identifié dans Rein4ced lot 129. Tensiomètre numérique fil.",
+        "priority": "MEDIUM"
+      },
+      {
+        "brand": "Mirka",
+        "models": ["Deos 383", "PBS10NV", "PBS13NV"],
+        "category": "ponceuses_pneumatiques_pro",
+        "context": "Identifié dans Rein4ced lots 117, 121-124. Ponceuses pneumatiques pro Finland.",
+        "priority": "MEDIUM"
+      },
+      {
+        "brand": "Marmitek",
+        "model_example": "Power S1",
+        "category": "domotique_mass_market",
+        "context": "Bulk 48× sur Pruijn 28/05. Prix mass-market low. Plafond très bas si bulk.",
+        "priority": "LOW"
+      },
+      {
+        "brand": "Marantz",
+        "model_example": "CD6007",
+        "category": "audio_hifi_legacy",
+        "context": "Lecteur CD Marantz · marché vintage actif · médiane used €350-450. À ajouter Tier 1 pour audio legacy.",
+        "priority": "MEDIUM",
+        "default_verdict_logic": "GO_B2C_ONLY si marteau ≤ 20% médiane"
+      },
+      {
+        "brand": "Triangle",
+        "model_example": "Borea BR1",
+        "category": "audio_hifi_consumer",
+        "context": "Pruijn lot 417 · marque française · peu indexée hors France",
+        "priority": "LOW"
+      },
+      {
+        "brand": "Focal",
+        "model_example": "Sib Evo",
+        "category": "audio_hifi_consumer",
+        "context": "Pruijn lot 170 · marque HC consumer · marché souvent overbid",
+        "priority": "LOW"
+      }
+    ]
+  },
+
+  "scan_categories_obligatoires": [
+    "/c/outils/appareillage-de-mesure",
+    "/c/imprimantes-et-photocopieurs",
+    "/c/electronique/image-et-son",
+    "/c/commerce-de-detail"
+  ]
+}

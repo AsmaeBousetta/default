@@ -1,0 +1,111 @@
+{
+  "$schema": "MosaScout pathfinder blacklist v1.0",
+  "last_updated": "2026-05-28T02:45:00+02:00",
+  "description": "Marques/modèles confirmés Pathfinder (0-1 sold sur 2+ marchés EU). SKIP automatique sans re-vérifier.",
+  "rule": "Re-tester un item de cette liste au plus une fois par 6 mois pour vérifier que le marché n'est pas réveillé.",
+
+  "blacklisted_models": [
+    {
+      "brand": "Lutron",
+      "model": "TM-947SD",
+      "description": "Thermomètre numérique RTD 4 canaux SD card",
+      "date_confirmed": "2026-05-28",
+      "evidence": {
+        "ebay_de_sold_90j": 0,
+        "ebay_fr_sold_90j": 0,
+        "ebay_de_url": "https://www.ebay.de/sch/i.html?_nkw=Lutron+TM-947SD&_sacat=0&LH_Sold=1&LH_Complete=1",
+        "ebay_fr_url": "https://www.ebay.fr/sch/i.html?_nkw=Lutron+thermometer&_sacat=0&LH_Sold=1&LH_Complete=1"
+      },
+      "context": "Découvert via Tier 2 scan A1-45182-99 (Rein4ced 28/05). Marque Taiwan obscure en EU. Demande quasi-inexistante."
+    },
+    {
+      "brand": "One Two",
+      "model": "AT-002 2D",
+      "description": "Scanner code-barres 2D handheld (Asian white-label OEM)",
+      "date_confirmed": "2026-05-28",
+      "evidence": {
+        "ebay_de_sold_90j": 0,
+        "ebay_fr_sold_90j": 0,
+        "ebay_de_url": "https://www.ebay.de/sch/i.html?_nkw=AT-002+2D+scanner&_sacat=0&LH_Sold=1&LH_Complete=1",
+        "ebay_fr_url": "https://www.ebay.fr/sch/i.html?_nkw=One+Two+AT-002&_sacat=0&LH_Sold=1&LH_Complete=1",
+        "auction_lot": "A1-45182-79 Rein4ced Lummen BE · 10× scanners · €25/0bid/9w · marteau ouverture"
+      },
+      "context": "Marque OEM asiatique obscure (probablement Cambodian/Vietnamese white-label). 0 sold confirmé sur eBay.de + eBay.fr. Visual confirmed brand 'one-two.com' lisible sur display. SKIP automatique par règle Pathfinder.",
+      "verdict": "SKIP_PATHFINDER · BLACKLIST_PERMANENT"
+    },
+    {
+      "brand": "Abbott",
+      "model": "ID NOW",
+      "description": "Analyseur de diagnostic moléculaire + imprimante + scanner (medical device)",
+      "date_confirmed": "2026-05-28",
+      "evidence": {
+        "ebay_de_sold_90j_exact": 0,
+        "auction_lot_count": 18,
+        "context": "A1-41694 Loon op Zand NL · 18+ lots €10-20/0-3bids/5-10w · eBay sold 0 exact matches"
+      },
+      "context": "Medical device EU réglementé CE/dispositif médical. Pas de marché secondaire eBay public. Acheteurs réels = dealers licenciés.",
+      "verdict": "SKIP_AUTO · BLACKLIST_PERMANENT_MEDICAL_DEVICE"
+    },
+    {
+      "brand": "Pathfinder",
+      "model": "6140",
+      "description": "Pathfinder GPS — leçon de référence du projet (20/05/2026)",
+      "date_confirmed": "2026-05-20",
+      "evidence": {
+        "note": "Médiane eBay attractive MAIS 4 annonces actives mondiales + 80j sans vente = marché mort"
+      },
+      "context": "Ce cas a donné son nom à la règle anti-Pathfinder du framework."
+    }
+  ],
+
+  "saturated_new_markets": [
+    {
+      "brand": "Testo",
+      "model": "Saveris 2",
+      "description": "Data logger température WiFi/cloud",
+      "date_confirmed": "2026-05-28",
+      "evidence": {
+        "ebay_de_sold_90j": 6,
+        "ebay_de_new_active": 38,
+        "ratio_new_sold": 6.3,
+        "saturation_level": "HIGH",
+        "ebay_de_sold_url": "https://www.ebay.de/sch/i.html?_nkw=Testo+Saveris+2&_sacat=0&LH_Sold=1&LH_Complete=1",
+        "ebay_de_new_url": "https://www.ebay.de/sch/i.html?_nkw=Testo+Saveris+2&_sacat=0&LH_ItemCondition=1000"
+      },
+      "context": "38 brand new actifs à €285-640 écrasent la marge B2B used. Skip sauf si lot extrêmement bas marteau (<€10 capital tout-inclus).",
+      "verdict": "SKIP_DEFAULT"
+    }
+  ],
+
+  "saturated_b2b_only": [
+    {
+      "brand": "Makita",
+      "models": ["DTD152Z", "DTW190Z"],
+      "format": "Bezorgveiling Troostwijk (livraison incluse)",
+      "date_confirmed": "2026-05-27",
+      "evidence": {
+        "note": "Format livraison incluse attire 5-10× plus d'acheteurs. Bids explosent dès J-3. Plafond Makita corps DTD152Z ~€5 vs marteau habituel €25-40."
+      },
+      "verdict": "SKIP_IF_BEZORGVEILING · OK si auction régionale Troostwijk"
+    },
+    {
+      "brand": "Milwaukee",
+      "models": ["M12 BPRT-0"],
+      "format": "Bezorgveiling Troostwijk",
+      "date_confirmed": "2026-05-27",
+      "evidence": {
+        "note": "M12 BPRT-0 corps seul · marteau actuel €140 sur Bezorgveiling vs plafond €15 (×9 overbid)"
+      },
+      "verdict": "SKIP_IF_BEZORGVEILING"
+    },
+    {
+      "brand": "Intel",
+      "models": ["NUC Desktop bulk"],
+      "context": "Lot 3x à €170/19 bids/53 watchers le 28/05. Marché pros, escalade systématique.",
+      "date_confirmed": "2026-05-28",
+      "verdict": "SKIP_IF_HIGH_WATCHERS"
+    }
+  ],
+
+  "review_after": "2026-11-28"
+}
